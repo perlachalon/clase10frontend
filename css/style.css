@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{ margin: 0;  box-sizing: border-box; }      
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.descuentos{background-color: #1CD1B0;
+ 
+    }
+h1{
+    box-shadow: 5px 5px rgba(0,0,0,0.2);
+    background-color: #00669F;
+}
+
+
+
+.tarjeta{ display: inline-block;
+    border-radius: 16px;
+    width: 300px;
+
+}
+h3{
+    text-transform: uppercase;
+}
+.background_img{
+    border-radius: 16px 16px 0px 0px;
+    height: 193px;
+    width: 300px;
+   
+}
+
+.background_img.batman{
+    background-image: url(../img/background-batman.png);
+}
+
+
+.avatar{
+    border-radius: 50%;
+    width:120px;
+    height: 120px;
+}
+
+.avatar.batman{
+    background-image: url("../img/avatar-batman.png");
+}
+.avatar_harley_quinn{
+     background-image: url("../img/avatar-harleyquinn.png") ;
+}
+.background_img_harley_quinn{ background-image: url("../img/background-harleyquinn.png");
+}
+    .corazon{
+    width:30px;
+    height: 30px;
+
+}
+
+.fas.fa-heart{
+    color: #CC2424;
+    font-size: 30px;
+}
+
+.contenido{
+    background-color: #F3F3F3;
+    text-align:center;
+    box-shadow: 0px 5px 3px grey;
+}
+
+.contenido p{
+    text-align: left;
+    font-size: 16px;
+    font-weight:600;
+    margin:119px 17px 104px 16px;
+
+}
+.boton{
+    background-color: #00669F;
+    color:#F3F3F3;
+    width: 128.78px;
+    height: 48.52px;
+  /*left: 117px;
+   top: 752px;*/
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 37px 15.52px; 
+
+} 
+
+.sin_uppercase{ text-transform: capitalize;
+}
+
+.footer{background: #00669F;
+    color: #FFF9F9;
+}
+
